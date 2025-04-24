@@ -1,0 +1,61 @@
+
+    body {
+      background: #f4f6f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .quiz-container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .result {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .green { color: green; }
+    .red { color: red; }
+    .orange { color: orange; }
+    .question-text code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    footer {
+        text-align: center;
+        background-color: #282c34;
+        color: white;
+        padding: 15px 0;
+        /* position: absolute; */
+        bottom: 0;
+        width: 100%;
+        margin-top: 70px;
+      }
+      
+      footer a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+      
+      footer a:hover {
+        text-decoration: none;
+      }
+      
+      /* Specific color for each icon on hover */
+      footer a.instagram:hover {
+        color: #E1306C; /* Instagram color */
+      }
+      
+      footer a.linkedin:hover {
+        color: #0077b5; /* LinkedIn color */
+      }
+      
+      footer a.github:hover {
+        color: #f3e34d; /* GitHub color */
+      }
+      
